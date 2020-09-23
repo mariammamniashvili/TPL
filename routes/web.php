@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('testing','AuthentificationController@index');
+Route::get('tpl','AuthentificationController@index');
 Route::get('platform','UserController@platform');
 Route::get('/', 'TestController@gela');
 Route::get('test', 'UserController@CarCategory');
